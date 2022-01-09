@@ -32,31 +32,31 @@
     padding-right: 0;
   }
 }
-// .skills-list {
-//   @media screen and (min-width: 768px) {
-//     display: flex;
-//   }
-//   @media screen and (min-width: 768px) and (max-width: 1199px) {
-//     flex-wrap: wrap;
-//     margin: -15px;
-//   }
-//   &__item {
-//     @media screen and (min-width: 768px) and (max-width: 1199px) {
-//       flex-basis: calc((100% - 4 * 15px) / 2);
-//       margin: 15px;
-//     }
-//     @media screen and (max-width: 767px) {
-//       &:not(:last-child) {
-//         margin-bottom: 30px;
-//       }
-//     }
-//     @media screen and (min-width: 1200px) {
-//       &:not(:last-child) {
-//         margin-right: 30px;
-//       }
-//     }
-//   }
-// }
+.skills-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  &__item {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      flex-basis: calc((100% - 4 * 15px) / 2);
+      margin: 15px;
+    }
+    @media screen and (max-width: 767px) {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+}
 .skills-list__title {
   margin-bottom: 10px;
   font-weight: 700;
