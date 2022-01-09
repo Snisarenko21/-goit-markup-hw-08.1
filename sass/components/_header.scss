@@ -3,20 +3,19 @@
 // .header {
 //   border-bottom: 1px solid $border-color;
 // }
-// .nav__logo {
-//   font-family: $secondary-font;
-//   font-weight: 700;
-//   font-size: 26px;
-//   line-height: 1.2;
-//   letter-spacing: 0.03em;
-//   color: $title-text-color;
-//   margin-right: 93px;
-//   padding: 24px 0 25px 0;
-// }
-
-// .nav__logo-web {
-//   color: $accent-color;
-// }
+.nav__logo {
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  margin-right: 93px;
+  padding: 24px 0 25px 0;
+}
+.nav__logo-web {
+  color: $accent-color;
+}
 // .nav {
 //   display: flex;
 //   align-items: center;
