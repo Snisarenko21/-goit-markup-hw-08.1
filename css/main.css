@@ -143,21 +143,33 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .skills-list {
+  .skills-list .skills-list {
     margin-top: -30px;
   }
 }
 
-.skills-list__title {
+@media screen and (min-width: 768px) {
+  .skills-list .skills-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.skills-list .skills-list__title {
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  text-align: center;
 }
 
-.skills-list__denails {
+.skills-list .skills-list__denails {
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
