@@ -1,3 +1,43 @@
+.burger-btn {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background-color: transparent;
+
+  z-index: 250;
+
+  &__icon-cross {
+    display: none;
+  }
+
+  &.is-opened .burger-btn__icon-menu {
+    display: none;
+  }
+  &.is-opened .burger-btn__icon-cross {
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.burger-btn__icon {
+  fill: $title-text-color;
+
+  z-index: 250;
+
+  .burger-btn:active & {
+    fill: $accent-color;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
 .menu-container {
   position: absolute;
   top: 0;
@@ -54,46 +94,6 @@
     @media screen and (min-width: 768px) {
       display: none;
     }
-  }
-
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
-
-.burger-btn {
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-
-  border: none;
-  background-color: transparent;
-
-  z-index: 250;
-
-  &__icon-cross {
-    display: none;
-  }
-
-  &.is-opened .burger-btn__icon-menu {
-    display: none;
-  }
-  &.is-opened .burger-btn__icon-cross {
-    display: block;
-  }
-
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
-
-.burger-btn__icon {
-  fill: $title-text-color;
-
-  z-index: 250;
-
-  .burger-btn:active & {
-    fill: $accent-color;
   }
 
   @media screen and (min-width: 768px) {

@@ -24,16 +24,6 @@
     letter-spacing: 0.03em;
   }
 }
-// .form-modals__box {
-//   display: flex;
-//   flex-direction: column;
-
-//   margin-bottom: 10px;
-
-//   &:nth-child(4) {
-//     margin-bottom: 20px;
-//   }
-// }
 
 .form-modals__box {
   display: block;
@@ -67,7 +57,6 @@
 .form__comment {
   resize: none;
   height: 120px;
-  // margin-bottom: 20px;
   font-family: inherit;
   font-weight: 400;
   font-size: 12px;
@@ -135,7 +124,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    // letter-spacing: 0.03em;
   }
 }
 .checkbox__link {
