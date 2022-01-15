@@ -24,6 +24,9 @@
     display: flex;
   }
 }
+.card-set__box:not(:last-child) {
+  margin-right: 30px;
+}
 .card-set__thumb {
   @media screen and (min-width: 1200px) {
     position: relative;

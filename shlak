@@ -1,0 +1,160 @@
+/* <!-- <button class="menu-button-open" aria-expanded="false" aria-controls="mobile-menu-container"
+data-burger-btn>
+<svg class="menu-button-open__icon" width="40px" height="40px" aria-label="Переключатель модильного меню">
+<use href="./images/icon-menu.svg#icon-menu"></use></svg></button> 
+        
+        <div class="menu">
+<button class="menu__button-close">
+    <svg class="menu__icon" width="40px" height="40px"> 
+<use class="burger-btn__icon-cross" href="./images/cross.svg#icon-cross"></use>
+</svg></button>
+
+<!- <div class="mob-menu">  -->
+    <!-- <div class="menu-container" id="mobile-menu-container" data-menu-container>
+
+<div class="menu-block">
+    <ul class="menu__list">
+        <li class="menu__link"><a href="./index.html" class="nav__link current">Студия</a></li>
+        <li class="menu__link"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
+        <li class="menu__link"><a href="/" class="nav__link">Контакты</a></li>
+    </ul>
+</div>
+<div class="contact-block">
+    <ul class="menu__list">
+        <li class="menu__list-contact"><a href="mailto:info@devstudio.com" class="menu__mob-link"></a></li>
+
+        <li class="menu__list-contact"><a href="tel:+380961111111" class="menu__mail-link"></a></li>
+    </ul>
+</div> -->
+
+<!-- 
+// .menu-button-open {
+// margin-left: auto;
+// padding: 0;
+// margin-top: 10px;
+// margin-bottom: 10px;
+// border: none;
+// color: $title-text-color;
+// background-color: transparent;
+// }
+
+// .menu-button-open {
+// @media (min-width: 768px) {
+// display: none;
+// }
+// }
+// .menu-button-open__icon {
+// fill: $title-text-color;
+// }
+// .menu {
+// position: fixed;
+// left: 0;
+// top: 0;
+// height: 100%;
+// width: 100%;
+// z-index: 200;
+// padding-bottom: 48px;
+// background-color: $primary-white-color;
+
+// @media (min-width: 768px) {
+// display: none;
+// }
+// }
+// .menu__button-close {
+// position: absolute;
+// top: 10px;
+// right: 15px;
+// border: none;
+// color: $title-text-color;
+// background-color: transparent;
+// display: block;
+// margin-left: auto;
+// padding: 0;
+// }
+
+// .mob-menu {
+// display: flex;
+// flex-direction: column;
+// justify-content: space-between;
+// height: 100%;
+// margin-top: 48px;
+// }
+// .menu__link-content:not(:last-child) {
+// margin-bottom: 32px;
+// }
+// .menu__link-content {
+// margin-left: 25px;
+// }
+
+// .menu__site-nav {
+// font-weight: 500;
+// line-height: calc(47 / 40);
+// text-align: center;
+// letter-spacing: 0.02em;
+// color: $title-text-color;
+// }
+// .menu__site-nav.current {
+// color: $accent-color;
+// }
+// .menu__site-nav {
+// @media (min-width: 320px) {
+// font-size: 40px;
+// }
+// .contact-block {
+// margin-top: auto;
+// }
+// .menu__list-contact {
+// margin-left: 25px;
+// margin-bottom: 32px;
+// }
+
+// .menu__mob-link {
+// display: block;
+// font-weight: 500;
+// font-size: 34px;
+// line-height: calc(40 / 34);
+// letter-spacing: 0.02em;
+// color: $accent-color;
+// }
+
+// .menu__mail-link {
+// display: block;
+// font-weight: 500;
+// font-size: 24px;
+// line-height: calc(28 / 24);
+// letter-spacing: 0.02em;
+// color: $primary-text-color;
+// }
+
+// .social-mob {
+// margin-left: 25px;
+// }
+
+// .mobile-socials {
+// display: flex;
+// flex-wrap: wrap;
+
+// & li:not(:last-child) {
+// padding-right: 10px;
+// margin-right: 10px;
+// border-right: 1px solid rgba(33, 33, 33, 0.2);
+// }
+
+// &__link {
+// display: inline-block;
+// font-weight: 500;
+// font-size: 18px;
+// line-height: 22px;
+// letter-spacing: 0.02em;
+// color: $accent-color;
+
+// @media screen and (min-width: 768px) {
+// display: none;
+// }
+// }
+
+// @media screen and (min-width: 768px) {
+// display: none;
+// }
+// }
+// } --> */
