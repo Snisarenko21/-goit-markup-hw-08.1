@@ -147,8 +147,10 @@
     // margin-top: 32px;
     margin-left: 40px;
   }
+  @media (min-width: 1200px) {
+    margin-left: auto;
+  }
 }
-
 .contacts {
   display: flex;
   align-items: center;

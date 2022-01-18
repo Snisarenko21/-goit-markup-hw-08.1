@@ -283,6 +283,12 @@ textarea {
   }
 }
 
+@media (min-width: 1200px) {
+  .contacts-thumb {
+    margin-left: auto;
+  }
+}
+
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
