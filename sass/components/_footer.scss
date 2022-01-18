@@ -1,5 +1,3 @@
-/* Футер */
-
 .footer-section {
   background-color: $hero-footer-color;
   padding: 60px 0;
@@ -16,6 +14,7 @@
 @media screen and (min-width: 1200px) {
   .footer-section__wrapper {
     display: flex;
+    align-items: center;
   }
 }
 
@@ -27,6 +26,7 @@
     margin-bottom: 60px;
   }
 }
+
 .address-footer__logo {
   display: block;
   //   margin-bottom: 20px;
