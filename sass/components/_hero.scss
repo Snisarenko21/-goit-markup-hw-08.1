@@ -42,8 +42,10 @@
   }
   @media screen and (min-width: 1200px) {
     width: 1600px;
-    max-width: 100%;
+    // max-width: 100%;
     height: 600px;
+    margin-right: auto;
+    margin-left: auto;
     background-size: 1600px, cover;
     background-image: linear-gradient(
         to right,
