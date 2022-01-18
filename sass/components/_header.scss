@@ -62,9 +62,9 @@
     margin-left: auto;
   }
 
-  @media screen and (min-width: 1200px) {
-    // margin-left: 93px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   // margin-left: 93px;
+  // }
 }
 
 .nav__item {
@@ -144,7 +144,6 @@
 .contacts-thumb {
   @media screen and (min-width: 768px) {
     // margin-left: auto;
-    // margin-top: 32px;
     margin-left: 40px;
   }
   @media (min-width: 1200px) {
@@ -189,7 +188,7 @@
 
 .contacts__item + .contacts__item {
   @media (min-width: 1200px) {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 }
 .contacts__link {
