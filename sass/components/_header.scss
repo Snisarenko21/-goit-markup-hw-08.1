@@ -32,7 +32,6 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: $title-text-color;
-  // margin-right: 93px;
 
   @media screen and (min-width: 768px) {
     margin-right: 93px;
@@ -61,10 +60,6 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: auto;
   }
-
-  // @media screen and (min-width: 1200px) {
-  //   // margin-left: 93px;
-  // }
 }
 
 .nav__item {
@@ -102,7 +97,6 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    // padding-top: 32px;
     padding-bottom: 32px;
   }
 
@@ -143,7 +137,6 @@
 }
 .contacts-thumb {
   @media screen and (min-width: 768px) {
-    // margin-left: auto;
     margin-left: 40px;
   }
   @media (min-width: 1200px) {

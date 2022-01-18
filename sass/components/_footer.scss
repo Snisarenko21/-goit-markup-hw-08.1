@@ -29,7 +29,6 @@
 
 .address-footer__logo {
   display: block;
-  //   margin-bottom: 20px;
   font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
@@ -99,10 +98,6 @@
 
       text-align: center;
     }
-
-    // @media screen and (min-width: 1200px) {
-    //   padding-top: 12px;
-    // }
   }
 
   &__list {
@@ -159,7 +154,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $primary-white-color;
-    //   margin-left: 70px;
 
     @media screen and (max-width: 1199px) {
       text-align: center;
@@ -167,7 +161,6 @@
   }
 
   &__form {
-    // display: block;
     @media screen and (min-width: 1200px) {
       display: flex;
     }
@@ -181,7 +174,6 @@
 
   @media screen and (min-width: 1200px) {
     margin-left: 93px;
-    // padding-top: 12px;
   }
 }
 
